@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="navbar">
+        <div id="nav_cont">
+      <div id="mid_text" class="flex">
+        <div>
+          <p>Store finder</p>
+          <p>Truck & Tool Rental</p>
+          <p>For the Pro</p>
+          <p>Gift Cards</p>
+          <p>Credit Services</p>
+          <p>Track Order</p>
+          <p>Help</p>
+        </div>
+      </div>
+      <div id="nav_div" class="flex">
+        <div id="search_bar_div">
+          <div id="img_search_bar">
+            <img
+              src="https://img.search.brave.com/QADW1dvgEWmFPa89uZEJzl-ho70w83wDHI_fsGh2HsY/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5j/U0twYzJSWjJKNTlR/MlhNYnRLZWl3SGFI/YSZwaWQ9QXBp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="text_search_bar_left">
+          <p>You'r shopping</p>
+          <h4>Gaum - Tamuning <i class="fa-solid fa-chevron-down"></i></h4>
+          <h4>Open till 10pm</h4>
+        </div>
+        <hr id="hr_line" />
+        <div id="delivery_text">
+          <p>Delivery to</p>
+          <p>10001 <i class="fa-solid fa-chevron-down"></i></p>
+        </div>
+        <div id="search_input" class="flex">
+          <input
+            type="text"
+            placeholder="What can we help you find you today"
+          />
+          <div id="search_btn">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+        <div id="search_last_text" class="flex">
+          <div><a style="color: black;text-decoration: none;" href="" id="myaccount">My Account</a></div>
+          <div class="arrow-up"></div>
+            <div class="myaccount-form">
+                <div class="box1">
+                    
+                    <button class="button1">Sign In</button>
+                    <p></p>
+                    <button class="button2">Register</button>
+                </div>
+
+            </div>
+          <span>List <i class="fa-solid fa-heart"></i></span>
+          <span>Cart <i class="fa-solid fa-cart-shopping"></i></span>
+        </div>
+      </div>
+      <div id="navbar_bottom" class="flex">
+          <p>All Departments</p>
+          <p>Home Decor, Furniture & Kitchenware</p>
+          <p>DIY Projects & Ideas</p>
+          <p>Project Calculators</p>
+          <p>Installation & Services</p>
+          <p>Specials & Offers</p>
+          <p>Local Ad & Catalog</p>
+      </div>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e5ccb9f482.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           var arrow=$(".arrow-up");
+            var form=$(".myaccount-form");
+            var status=false;
+            $("#myaccount").click(function(event){
+                event.preventDefault();
+                if(status== false){
+                   arrow.fadeIn();
+                    form.fadeIn();
+                    status=true;
+                }
+                else{
+                    arrow.fadeOut();
+                    form.fadeOut();
+                    status=false;
+                }
+            })
+        })
+
+        
+    </script>
+</body>
+</html>
