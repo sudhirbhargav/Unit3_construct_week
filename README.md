@@ -22,8 +22,8 @@ The Home Depot, Inc., commonly known as Home Depot, is the largest home improvem
 ![screencapture-127-0-0-1-5500-personalAccsignup-html-2022-02-27-11_46_56](https://user-images.githubusercontent.com/93834423/155871898-5024bdcc-c60c-4aa3-9fe1-c42c481efcdc.png)
 ![screencapture-127-0-0-1-5500-ProxtraAccount-html-2022-02-27-11_47_25](https://user-images.githubusercontent.com/93834423/155871900-bc046700-15a9-4392-b986-c48b646264c5.png)
 
-### Cart page by[@Shreyash]
+### Cart page by[@Shreyash](https://github.com/ShreyashGedam)
 ![screencapture-127-0-0-1-5500-cart-html-2022-02-27-11_47_52](https://user-images.githubusercontent.com/93834423/155871939-13e95d66-6d72-467a-806d-a0f7ee0215bd.png)
 
-### Checkout page by[@Anusha]
+### Checkout page by[@Anusha](https://github.com/anushaAnu333)
 ![screencapture-127-0-0-1-5500-checkout-html-2022-02-27-11_48_08](https://user-images.githubusercontent.com/93834423/155871955-1fb2f765-b4ba-4b3f-94b7-5a38cc2ca0c1.png)
