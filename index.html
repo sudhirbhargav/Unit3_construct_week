@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Home depot</title>
+    <link rel = "icon" href = 
+"https://img.search.brave.com/QADW1dvgEWmFPa89uZEJzl-ho70w83wDHI_fsGh2HsY/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5j/U0twYzJSWjJKNTlR/MlhNYnRLZWl3SGFI/YSZwaWQ9QXBp" 
+        type = "image/x-icon">
     <script src="https://kit.fontawesome.com/e5ccb9f482.js" crossorigin="anonymous"></script>
     <style>
       body {
@@ -359,6 +362,43 @@
          width: 80%;
          color: #79b6d6;
        }
+       #cat_two li{
+         margin: 5px 0px;
+         border: 2px solid black;
+         padding: 5px 10px;
+         font-size: 15px;
+        }
+        #cat_two ul{
+          display: flex;
+          padding: 0;
+         right: 100px;
+         width: 100%;
+        list-style-type: none;
+       }
+       .product img{
+         width: 50%;
+       }
+       #cat_two_img div{
+         margin-top: 20%;
+       }
+       #cat_two_img div img{
+         width: 80%;
+         height: 100%;
+         gap: 2%;
+       }
+       #cat_five img{
+         margin-top: 20%;
+         width: 35%;
+       }
+       #cat_six img{
+         width: 80%;
+       }
+       #cat_six > div {
+         padding: 0;
+         text-align: center;
+         width: 100%;
+         margin-top: 20%;
+       }
     </style>
   </head>
   <body>
@@ -437,8 +477,44 @@
             <p>Don't Have an Account? <a href="#">Create an account</a> </p>
           </div>
         </div>
-        <div class="cat_div" id="cat_two"></div>
-        <div class="cat_div" id="cat_three"></div>
+        <div class="cat_div" id="cat_two">
+          <h2>Top Savings For You</h2>
+          <ul>
+            <li>All</li>
+            <li>Garden Center</li>
+            <li>Bathroom Vanities</li>
+            <li>Power Tools</li>
+          </ul>
+          <div id="prod_div" class="flex">
+          <div class="product">
+            <img src="https://images.thdstatic.com/productImages/ceee9b94-8573-42f1-b195-48a6ca12505f/svn/ryobi-power-tool-combo-kits-pblck300k-64_300.jpg" alt="">
+            <p class="bold">RYOBI ONE+ 18V Brushless Cordless 5-Tool</p>
+            <p>$
+              179
+              00
+              $519.91
+              Save $340.91 (66%)</p>
+          </div>
+          <div class="product">
+            <img src="https://images.thdstatic.com/productImages/3868b3e2-0ed4-4bd6-b9fb-671248fed1f3/svn/ryobi-power-drills-p215k1-ar2042-64_300.jpg" alt="">
+            <p class="bold">RYOBI ONE+ 18V Brushless Cordless 5-Tool</p>
+            <p>$
+              69
+              00
+              $119.00
+              Save $50.00 (42%)</p>
+          </div>
+        </div>
+        </div>
+        <div class="cat_div" id="cat_three">
+          <h2>Categories</h2>
+          <div id="cat_two_img" class="flex">
+            <div><img src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Appliances-Shopbycategory.png" alt="">
+            <p>Appliances</p></div>
+            <div><img src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Bath-and-faucets-Shopbycategory.png" alt="">
+            <p>Bath & Faucets</p></div>
+          </div>
+        </div>
         <div class="cat_div" id="cat_four">
           <h2>My Home Depot Credit Card</h2>
           <div>
@@ -449,8 +525,28 @@
             <p>See <a href="#">Terms and condition</a> for offer details.</p>
           </div>
         </div>
-        <div class="cat_div" id="cat_five"></div>
-        <div class="cat_div" id="cat_six"></div>
+        <div class="cat_div" id="cat_five">
+          <h2>Up to $350 off Select Vacuums & Appliances</h2>
+          <div class="flex">
+          <img src="https://assets.thdstatic.com/personalized-homepage-ui/0.437.0/build/20a1fe1d2fdeab4b913be9886b901b99.png" alt="">
+          <img src="https://images.thdstatic.com/productImages/37f276eb-c7dc-41ba-a3fd-d0149145e3a4/svn/dyson-handheld-vacuums-371020-01-64_300.jpg" alt="">
+          <img src="https://images.thdstatic.com/productImages/9343096c-1589-4251-bd35-55f1a74816d4/svn/irobot-robot-vacuums-e619820-64_300.jpg" alt="">
+        </div>
+        </div>
+        <div class="cat_div" id="cat_six">
+          <h2>Trending in Your Neighborhood</h2>
+          <div class="flex">
+            <div>
+              <img src="https://images.thdstatic.com/productImages/36351fa8-1d1e-459b-962a-c05efa8e3905/svn/ecosmart-edison-bulbs-a15c6e26822s-64_300.jpg" alt="">
+              <p>Edison Bulbs</p>
+            </div>
+            <div>
+              <img src="https://images.thdstatic.com/productImages/54e02fce-5fd7-495e-9086-7748e3807c21/svn/spot-defense-brushed-nickel-pfister-widespread-bathroom-faucets-lf-049-lrgs-64_300.jpg" alt="">
+              <p>Widespread Bathroom Faucets</p>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
       <div id="shopping">
         <div id="shop_heading" class="flex">
